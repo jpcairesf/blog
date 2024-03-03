@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jpcairesf</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on jpcairesf</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pages/about/</guid>
+      
+      <description>Who I Am, Currently I&amp;rsquo;m a Software Engineer. I&amp;rsquo;m also an Electrical Engineer that tried different careers over 6 years before finding the one I am passionate about. Now I&amp;rsquo;m just grateful, focused on improving my skills and willing to help others with my experience. I love teaching and I&amp;rsquo;ve already worked as one for a few years.
+I&amp;rsquo;m a routine addicted. Waking up early, eating healthy, coding, going to gym, sleeping early and well, that&amp;rsquo;s my definition of a perfect day.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

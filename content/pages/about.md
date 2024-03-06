@@ -1,20 +1,18 @@
 ---
 title: About
-description: 'From Average To '
+description: 'My background, habits and decisions'
 author: jpcairesf
 ---
-**_I wrote my first lines of code when I was 11 writing scripts for RPG Maker in Ruby._**
+### Prelude
+I wrote my first lines of code when I was 11, writing scripts for RPG Maker in Ruby. At that age I was already doing tricky things on the computer like setting up different emulators and using a VPN to play MMOs that weren't available in my country. No matter how complex the problem, I debug and try to fix it until I solve it or prove it impossible.
 
-**_At that age I was also using VPN to play MMOs that were unavailable in my country._**
+**_A resilient kid who never let technology take control._**
 
-**_No matter how complex the problem was I debug and try to fix it until I solve it or prove that it's impossible. A resilient kid that never let technology take control._**
+### My Background
+I'm a Software Engineer. I'm also an Electrical Engineer who tried different careers over 6 years before finding the one I am passionate about. Now I'm just grateful, focused on improving my skills and willing to help others with my experience. I love teaching and worked as one for a few years. Now I spend time sharing my knowledge across different medias.
 
-# Who I Am, Currently
-I'm a Software Engineer. I'm also an Electrical Engineer that tried different careers over 6 years before finding the one I am passionate about. Now I'm just grateful, focused on improving my skills and willing to help others with my experience. I love teaching and I've already worked as one for a few years.
+### My Habits
+I'm a routine addicted. Waking up early, eating healthy, coding, going to the gym, sleeping early and well, that's my definition of a perfect day. Doing these simple things almost everyday makes me extremally happy. My lifestyle also meets technology to achieve high productivity. My Linux setup and CLI tools make my workspace fully configurable and ergonomic to reach the maximum effectiveness.
 
-I'm a routine addicted. Waking up early, eating healthy, coding, going to gym, sleeping early and well, that's my definition of a perfect day. And I embrace this simple things, I'm extremally happy doing them almost everyday.
-
-My high productivity meets my lifestyle smoothly. And I also combine technology to achieve it. My Linux setup and CLI tools makes my workspace fully configurable and ergonomic to reach the maximum effectiveness.
-
-# How I Came Up Here
-I started college and my work as a teacher at weekends in 2016. Until 2018 I was discovering how it was working with electrical engineering, and also realized that my softskills needed improvement urgently. In 2019 I started working with digital marketing but after a year I was sure that I didn't want to have a career in this area. I kept in marketing because my improvement was huge, but in the end of 2020 I tried to migrate to data science in my current company. The marketing team was fully made by engineers and we used as much technology and code as possible for automations and data handling. Internal career migration failed but in 2021 I started working with software in another company.
+### My Decisions
+Dopamine and substances don't control my actions. This is why I quit many social medias, drinking, powergaming, tasty food rewarding and laziness. My free time is currently based around coding and studying technology, and I've never have been happier, more productive and healthier both pyshically and mentally.

@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on jpcairesf</title>
+    <title>Posts on jpcairesf</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Home on jpcairesf</description>
+    <description>Recent content in Posts on jpcairesf</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Mar 2024 16:59:08 -0300</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Mar 2024 20:35:51 -0300</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Blogging Can Leverage Your Tech Career</title>
+      <link>http://localhost:1313/posts/how-blogging-can-leverage-your-tech-career/</link>
+      <pubDate>Tue, 05 Mar 2024 20:35:51 -0300</pubDate>
+      
+      <guid>http://localhost:1313/posts/how-blogging-can-leverage-your-tech-career/</guid>
+      
+      <description>https://www.linkedin.com/posts/vladmihalcea_blogging-has-helped-me-write-much-better-activity-7169260719308267521-KdPc https://startafuckingblog.com/
+I truly believe in the technical blogging cycle. The reasons are almost self-explained
+Stands you out Makes you a technical reference Forces you to know about in depth Gives you organic reach Great notes to study Improve your communication </description>
+      
+    </item>
+    
   </channel>
 </rss>

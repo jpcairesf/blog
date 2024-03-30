@@ -1,6 +1,6 @@
 baseURL = "https://jpcairesf.github.io/blog"
 languageCode = 'en-us'
-title = 'jpcairesf'
+title = 'jpcairesf/Blog'
 theme = "hugo-blog-awesome"
 
 # To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
@@ -76,7 +76,7 @@ disqusShortname = ''
 [params.author]
   avatar = "avatar.png" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "J. Pedro Caires F."
+  intro = "João Pedro"
   name = "jpcairesf"
   description = "I enjoy coding as much as playing Ragnarok in 2010. WFH dev in a countryside city talking about productivity, career, backend and devops."
 

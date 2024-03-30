@@ -4,9 +4,7 @@ description: "My background, habits and decisions"
 author: jpcairesf
 ---
 
-### Prelude
-
-I wrote my first lines of code when I was 11, writing scripts for RPG Maker in Ruby. At that age I was also taking several days of configurations to make a program work on my computer, setting up different emulators and using VPN to connect to servers that weren't available in my country. Computer was my second home and no matter how complex the problem there, I debug and try to fix it until I solve it or prove it impossible.
+I wrote my first lines of code when I was 12, writing scripts for RPG Maker in Ruby. I was an average gaming nerd kid with very low hardware specs and internet connection who have spent several days fixing problems, installing programs and configuring to make things work. Computer was my second home and no matter how complex the problem there, I debug and try to fix it until I solve it or prove it impossible.
 
 ### My Background
 

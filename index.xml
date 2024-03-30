@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jpcairesf</title>
+    <link>https://jpcairesf.github.io/blog/</link>
+    <description>Recent content on jpcairesf</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Mar 2024 20:35:51 -0300</lastBuildDate><atom:link href="https://jpcairesf.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Blogging Can Leverage Your Tech Career</title>
+      <link>https://jpcairesf.github.io/blog/posts/how-blogging-can-leverage-your-tech-career/</link>
+      <pubDate>Tue, 05 Mar 2024 20:35:51 -0300</pubDate>
+      
+      <guid>https://jpcairesf.github.io/blog/posts/how-blogging-can-leverage-your-tech-career/</guid>
+      
+      <description>You Better Read Reading is important in technology. Documentation, blog posts and articles are the gold mine for learning advanced content, and blogging is a chill way for tech wizards who&amp;rsquo;d rather type than talk on camera to share their wisdom. Tech has this cool vibe where people love creating content, especially on their own blog or platforms like Dev.to.
+This cycle represents how it works and I&amp;rsquo;m a big believer in the whole tech blogging community as a mutual collaboration environment.</description>
+      
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://jpcairesf.github.io/blog/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jpcairesf.github.io/blog/pages/about/</guid>
+      
+      <description>Prelude I wrote my first lines of code when I was 11, writing scripts for RPG Maker in Ruby. At that age I was also taking several days of configurations to make a program work on my computer, setting up different emulators and using VPN to connect to servers that weren&amp;rsquo;t available in my country. Computer was my second home and no matter how complex the problem there, I debug and try to fix it until I solve it or prove it impossible.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

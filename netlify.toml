@@ -1,0 +1,16 @@
+# Settings in the [build] context are global and are applied to
+# all contexts unless otherwise overridden by more specific contexts.
+
+[build]
+  base = "/"
+  publish = "blog/public"
+  command = "cd blog && hugo --gc --themesDir ../.."
+
+[build.environment]
+  HUGO_VERSION = "0.123.8"
+  HUGO_THEME = "repo"
+
+# Deploy Preview context: all deploys generated from
+# a pull/merge request will inherit these settings.
+[context.deploy-preview]
+command = "cd blog && hugo --gc --themesDir ../.. -b $DEPLOY_PRIME_URL"

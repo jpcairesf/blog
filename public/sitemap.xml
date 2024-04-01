@@ -2,10 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/posts/how-blogging-can-leverage-your-tech-career/</loc>
-    <lastmod>2024-03-05T20:35:51-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2024-03-31T09:29:19-23:53</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/notes/</loc>
+    <lastmod>2024-03-31T09:29:19-23:53</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/notes/interview-storytelling/</loc>
+    <lastmod>2024-03-10T12:58:19-23:53</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/notes/sorting-algorithms/</loc>
+    <lastmod>2024-03-10T15:24:15+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/notes/coding-interview-technical-questions/</loc>
+    <lastmod>2024-03-09T07:50:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/notes/data-structures/</loc>
+    <lastmod>2024-03-09T07:50:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/posts/how-blogging-can-leverage-your-tech-career/</loc>
     <lastmod>2024-03-05T20:35:51-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/posts/</loc>

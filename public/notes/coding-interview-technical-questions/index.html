@@ -3,11 +3,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Pages | jpcairesf/Blog</title>
-<meta property="og:title" content="Pages | jpcairesf/Blog" />
-<meta name="twitter:title" content="Pages | jpcairesf/Blog" />
-<meta itemprop="name" content="Pages | jpcairesf/Blog" />
-<meta name="application-name" content="Pages | jpcairesf/Blog" />
+<title itemprop="name">Coding Interview: Technical Questions | jpcairesf/Blog</title>
+<meta property="og:title" content="Coding Interview: Technical Questions | jpcairesf/Blog" />
+<meta name="twitter:title" content="Coding Interview: Technical Questions | jpcairesf/Blog" />
+<meta itemprop="name" content="Coding Interview: Technical Questions | jpcairesf/Blog" />
+<meta name="application-name" content="Coding Interview: Technical Questions | jpcairesf/Blog" />
 <meta property="og:site_name" content="Awesome hugo blog" />
 
 <meta name="description" content="Minimal Hugo blog theme with light and dark mode support">
@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en-us" />
 <meta name="language" content="en-us" />
 
-  <link rel="alternate" hreflang="en" href="http://localhost:1313/blog/pages/" title="" />
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/blog/notes/coding-interview-technical-questions/" title="" />
 
 
 
@@ -35,9 +35,7 @@
 
     
 
-    <link rel="canonical" href="http://localhost:1313/blog/pages/">
-    <link href="/blog/pages/index.xml" rel="alternate" type="application/rss+xml" title="jpcairesf/Blog">
-    <link href="/blog/pages/index.xml" rel="feed" type="application/rss+xml" title="jpcairesf/Blog">
+    <link rel="canonical" href="http://localhost:1313/blog/notes/coding-interview-technical-questions/">
     <link href="/blog/style.min.d43bc6c79baa87f006efb2b92be952faeedeb1a3ab626c1d6abda52eae049355.css" rel="stylesheet">
     <link href="/blog/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
@@ -95,7 +93,7 @@ stroke-linejoin="round" class="feather feather-home">
                 </li>
                 
                 <li>
-                    <a class="menu-link " href="/blog/notes/">
+                    <a class="menu-link active" href="/blog/notes/">
                         Notes
                     </a>
                     
@@ -130,39 +128,117 @@ stroke-linejoin="round" class="feather feather-home">
         </div>
     </nav>
 </div>
-<div class="wrapper list-page">
-    <header class="header">
-        <h1 class="header-title center">Pages</h1>
-    </header>
+
+<div class="wrapper post">
     <main class="page-content" aria-label="Content">
-        
-        
-        <h2 class="post-year">0001</h2>
-
-        
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/blog/pages/about/">About</a>
-    </h4>
+        <article>
+            <header class="header">
+                <h1 class="header-title">Coding Interview: Technical Questions</h1>
+                
+                
+                <div class="post-meta">
+                    <time datetime="2024-03-09T07:50:00&#43;00:00" itemprop="datePublished"> Mar 9, 2024 </time>
+                </div>
+                
+            </header>
+            
     
-    
-    
-    <time class="post-item-meta" datetime="0001-01-01T00:00:00Z">
-        1 Jan 0001
-        
-    </time>
-</article>
+    <details class="toc" ZgotmplZ>
+        <summary><b></b></summary>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#walking-through-a-problem">Walking Through A Problem</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#technique-1-bud-optimization">Technique #1: BUD Optimization</a></li>
+            <li><a href="#technique-2-do-it-yourself">Technique #2: Do It Yourself</a></li>
+            <li><a href="#technique-3-simplify-and-generalize">Technique #3: Simplify And Generalize</a></li>
+            <li><a href="#technique-4-base-case-and-build">Technique #4: Base Case And Build</a></li>
+            <li><a href="#technique-5-data-structure-brainstorm">Technique #5: Data Structure Brainstorm</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#handling-situations">Handling Situations</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#handling-incorrect-answers">Handling Incorrect Answers</a></li>
+            <li><a href="#when-youve-heard-a-question-before">When You&rsquo;ve Heard A Question Before</a></li>
+            <li><a href="#the-perfect-language-for-interviews">The Perfect Language For Interviews</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#writing-good-code">Writing Good Code</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#use-data-structures-generously">Use Data Structures Generously</a></li>
+            <li><a href="#modular">Modular</a></li>
+            <li><a href="#flexible-and-robust">Flexible And Robust</a></li>
+            <li><a href="#error-checking">Error Checking</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#dont-give-up">Don&rsquo;t Give Up!</a></li>
+  </ul>
+</nav>
+    </details>
+            <div class="page-content">
+                <h2 id="walking-through-a-problem">Walking Through A Problem</h2>
+<ol>
+<li><strong>Listen</strong>: pay attention very closely</li>
+<li><strong>Example</strong>: debug your example and find special cases</li>
+<li><strong>Brute force</strong>: state a naive algorithm and then optimize it</li>
+<li><strong>Optimize</strong>: BUD Optimization or look (or ask) for unused info, make time vs. space tradeoff</li>
+<li><strong>Walk Through</strong>: make sure you understand each detail of your optimal solution before coding</li>
+<li><strong>Implement</strong>: modularize your code from the beginning and refactor</li>
+<li><strong>Test</strong>: code review, look for hot spots and special and edge cases</li>
+</ol>
+<h4 id="technique-1-bud-optimization">Technique #1: BUD Optimization</h4>
+<p>Acronym for <strong>B</strong>ottlenecks, <strong>U</strong>nnecessary work and <strong>D</strong>uplicated work. Bottleneck is a part of your algorithm that slows down the overral runtime. Common ways this occurs are having one-time work that slows down your algorithm and having a chunk of work that is done repeatedly (like searching). Then look for unnecessary and duplicated work.</p>
+<h4 id="technique-2-do-it-yourself">Technique #2: Do It Yourself</h4>
+<p>Use a nice, big example and intuitively solve it. Think hard about how you solved it and reverse engineer your own approach.</p>
+<h4 id="technique-3-simplify-and-generalize">Technique #3: Simplify And Generalize</h4>
+<p>Multi-step approach that simplify some constraint (such as the data type). Solve the simplified version of the problem and then adapt for a more complex version.</p>
+<h4 id="technique-4-base-case-and-build">Technique #4: Base Case And Build</h4>
+<p>Solve the problem first for a base case and then build up for more complex cases. Generally lead to recursive algorithms.</p>
+<h4 id="technique-5-data-structure-brainstorm">Technique #5: Data Structure Brainstorm</h4>
+<p>Solving a problem may be trivial once it occurs to use a specific data structure. The more problems you do, the more developed your instinct on which data structure to apply will be.</p>
+<h2 id="handling-situations">Handling Situations</h2>
+<h4 id="handling-incorrect-answers">Handling Incorrect Answers</h4>
+<p>Candidates don&rsquo;t need to get every question right. You will be evaluated about how optimal your final solution was, how long it took to get there, hhow much help you needed, and how clean was your code. You will also be evaluated in comparison to other candidates and the questions my be too difficult to expect even a strong candidate to immediately spit out the optimal algorithm.</p>
+<h4 id="when-youve-heard-a-question-before">When You&rsquo;ve Heard A Question Before</h4>
+<p>If it occurs, admit this to your interviewer. Otherwise it may be highly dishonest if you don&rsquo;t reveal that you know the question and, conversely, you&rsquo;ll get big honesty points if you do reveal this.</p>
+<h4 id="the-perfect-language-for-interviews">The Perfect Language For Interviews</h4>
+<p>Many top companies interviewers aren&rsquo;t picky about languages. Choose whatever language you&rsquo;re most comfortable with considering some points.</p>
+<ul>
+<li><strong>Prevalence</strong>: It&rsquo;s ideal for your interviewer to know the language you&rsquo;re coding in. Prefer widely known languages.</li>
+<li><strong>Readability</strong>: Languages such as Scala or Objective-C have fairly different syntax.</li>
+<li><strong>Potential Problems</strong>: For example, using C++ means that, in addition to all the usual bugs you can have in your code, you can have memory management and pointer issues.</li>
+<li><strong>Verbosity</strong>: Languages with simple syntax may be preferred, but some verbosity can be reduced by abbreviating code (most interviewers wouldn&rsquo;t mind)</li>
+<li><strong>Ease of Use</strong>: Some operations are easier in some languages than others.</li>
+</ul>
+<h2 id="writing-good-code">Writing Good Code</h2>
+<p>A good code is correct, efficient, simple, readable and maintainable. Striving for these aspects requires a balancing act. For example, it&rsquo;s often advisable to sacrifice some degree of efficiency to make code more maintainable, and vice versa.</p>
+<h4 id="use-data-structures-generously">Use Data Structures Generously</h4>
+<p>Design your own data structure may be a good solution in some cases. It&rsquo;s a good point to evaluate with the interviewer. Some might argued that this is over-optimizing.</p>
+<h4 id="modular">Modular</h4>
+<p>Separate isolated chunks of code out into their own methods. This helps keep the code more maintainable, readable, testable and reusable.</p>
+<h4 id="flexible-and-robust">Flexible And Robust</h4>
+<p>Use variables instead of hard-coded values, use templates to solve a problem. You should write your code to solve a more general problem.</p>
+<h4 id="error-checking">Error Checking</h4>
+<p>Adopt failing fast and don&rsquo;t make assumptions about the input. If the error checks are much more than a quick if-statement, it may be best to leave some space where the error checks would go and indicate to your interviewer that you&rsquo;ll fill them in when you&rsquo;re finished with the rest of the code.</p>
+<h2 id="dont-give-up">Don&rsquo;t Give Up!</h2>
+<p>Interview questions can be overwhelming, but this is how they are supposed to be. It shouldn&rsquo;t be a surprise when you get a really tough problem. Show excitement about solving hard problems for extra points.</p>
 
-
-         
-
-         
-
-    </main>
-</div><footer class="footer">
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 

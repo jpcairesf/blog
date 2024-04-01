@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>jpcairesf/Blog</title>
-    <link>http://localhost:1313/blog/</link>
-    <description>Recent content on jpcairesf/Blog</description>
+    <title>Notes on jpcairesf/Blog</title>
+    <link>http://localhost:1313/blog/notes/</link>
+    <description>Recent content in Notes on jpcairesf/Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Mar 2024 09:29:19 -2353</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Mar 2024 09:29:19 -2353</lastBuildDate><atom:link href="http://localhost:1313/blog/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Interview Storytelling</title>
       <link>http://localhost:1313/blog/notes/interview-storytelling/</link>
@@ -53,29 +53,6 @@ Inplace and unstable O(n2) time and O(1) space def selection_sort(arr): for i in
       <description>Data Structures A very simplified note to cover the most important data structures with examples in python, operations time complexity and trade offs.
 Arrays A contiguous memory block that stores elements of the same data type. The memory address of the first element in the array is the base address and any other element&amp;rsquo;s address can be calculated using the base address and the size of each element.
 array = [] array.</description>
-      
-    </item>
-    
-    <item>
-      <title>How Blogging Can Leverage Your Tech Career</title>
-      <link>http://localhost:1313/blog/posts/how-blogging-can-leverage-your-tech-career/</link>
-      <pubDate>Tue, 05 Mar 2024 20:35:51 -0300</pubDate>
-      
-      <guid>http://localhost:1313/blog/posts/how-blogging-can-leverage-your-tech-career/</guid>
-      
-      <description>You Better Read Reading is important in technology. Documentation, blog posts and articles are the gold mine for learning advanced content, and blogging is a chill way for tech wizards who&amp;rsquo;d rather type than talk on camera to share their wisdom. Tech has this cool vibe where people love creating content, especially on their own blog or platforms like Dev.to.
-This cycle represents how it works and I&amp;rsquo;m a big believer in the whole tech blogging community as a mutual collaboration environment.</description>
-      
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/blog/pages/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/blog/pages/about/</guid>
-      
-      <description>I wrote my first lines of code when I was 12, writing scripts for RPG Maker in Ruby. I was an average gaming nerd kid with very low hardware specs and internet connection who have spent several days fixing problems, installing programs and configuring to make things work. Computer was my second home and no matter how complex the problem there, I debug and try to fix it until I solve it or prove it impossible.</description>
       
     </item>
     

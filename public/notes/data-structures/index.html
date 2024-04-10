@@ -134,76 +134,16 @@ stroke-linejoin="round" class="feather feather-home">
         <article>
             <header class="header">
                 <h1 class="header-title">Data Structures</h1>
-                
-                
+                 
                 <div class="post-meta">
-                    <time datetime="2024-03-09T07:50:00&#43;00:00" itemprop="datePublished"> Mar 9, 2024 </time>
+                    <time datetime="2024-03-09T07:50:00&#43;00:00" itemprop="datePublished">
+                        Mar 9, 2024
+                    </time>
                 </div>
                 
             </header>
             
-    
-    <details class="toc" ZgotmplZ>
-        <summary><b></b></summary>
-        <nav id="TableOfContents">
-  <ul>
-    <li><a href="#arrays">Arrays</a>
-      <ul>
-        <li>
-          <ul>
-            <li><a href="#operations">Operations</a></li>
-            <li><a href="#pros-and-cons">Pros And Cons</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#linked-list">Linked List</a>
-      <ul>
-        <li>
-          <ul>
-            <li><a href="#operations-1">Operations</a></li>
-            <li><a href="#pros-and-cons-1">Pros And Cons</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#stack">Stack</a>
-      <ul>
-        <li>
-          <ul>
-            <li><a href="#operations-2">Operations</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#queue">Queue</a>
-      <ul>
-        <li>
-          <ul>
-            <li><a href="#operations-3">Operations</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#hash-map">Hash Map</a></li>
-    <li><a href="#set">Set</a></li>
-    <li><a href="#binary-tree">Binary Tree</a>
-      <ul>
-        <li>
-          <ul>
-            <li><a href="#traversal">Traversal</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#heap">Heap</a></li>
-  </ul>
-</nav>
-    </details>
-            <div class="page-content">
-                <h1 id="data-structures">Data Structures</h1>
-<p>A very simplified note to cover the most important data structures with examples in python, operations time complexity and trade offs.</p>
-<h2 id="arrays">Arrays</h2>
+            <div class="page-content"><h1 id="arrays">Arrays</h1>
 <p>A contiguous memory block that stores elements of the same data type. The memory address of the first element in the array is the base address and any other element&rsquo;s address can be calculated using the base address and the size of each element.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">array</span> <span class="o">=</span> <span class="p">[]</span>
 </span></span><span class="line"><span class="cl"><span class="n">array</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
@@ -212,17 +152,17 @@ stroke-linejoin="round" class="feather feather-home">
 </span></span><span class="line"><span class="cl"><span class="n">array</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">array</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span> <span class="c1"># 3</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">array</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span> <span class="c1"># 1</span>
-</span></span></code></pre></div><h4 id="operations">Operations</h4>
+</span></span></code></pre></div><h3 id="operations">Operations</h3>
 <ul>
 <li><strong>Access by index</strong>: <code>O(1)</code> by calculating the position</li>
 <li><strong>Access by value</strong>: <code>O(n)</code> by traversal</li>
 <li><strong>Write in the beginning</strong>: <code>O(n)</code>, requires shifting elements</li>
 <li><strong>Write in the end</strong>: <code>O(1)</code>, no shifting required</li>
 </ul>
-<h4 id="pros-and-cons">Pros And Cons</h4>
+<h3 id="pros-and-cons">Pros And Cons</h3>
 <p><strong>Pros</strong>: Direct access using indexes, contiguous storage minimizes memory overhead, easy to sort.
 <strong>Cons</strong>: Fixed (limited) size, inefficient writing due to shifting, unfilled memory keep allocated.</p>
-<h2 id="linked-list">Linked List</h2>
+<h1 id="linked-list">Linked List</h1>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">ListNode</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">val</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="nb">next</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">val</span> <span class="o">=</span> <span class="n">val</span>
@@ -235,26 +175,18 @@ stroke-linejoin="round" class="feather feather-home">
 </span></span><span class="line"><span class="cl"><span class="c1">#    def append(self, val):</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#    def remove(self, val):</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#    def display(self):</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">linked_list</span> <span class="o">=</span> <span class="n">LinkedList</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl"><span class="n">linked_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">linked_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">linked_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">linked_list</span><span class="o">.</span><span class="n">display</span><span class="p">()</span>  <span class="c1"># Output: 1 -&gt; 2 -&gt; 3 -&gt; None</span>
-</span></span><span class="line"><span class="cl"><span class="n">linked_list</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">linked_list</span><span class="o">.</span><span class="n">display</span><span class="p">()</span>  <span class="c1"># Output: 1 -&gt; 3 -&gt; None</span>
 </span></span></code></pre></div><p>A linear data structure where elements (nodes) are connected through pointers. Doesn&rsquo;t require contiguous memory locations and each node contains a reference to the next one, allowing to be placed anywhere in the memory.</p>
-<h4 id="operations-1">Operations</h4>
+<h3 id="operations-1">Operations</h3>
 <ul>
 <li><strong>Access by index</strong>: <code>O(n)</code> by traversal</li>
 <li><strong>Access by value</strong>: <code>O(n)</code> by traversal</li>
 <li><strong>Write in the beginning</strong>: <code>O(1)</code> by pointing the new node to the old head</li>
 <li><strong>Write in the end</strong>: <code>O(n)</code> by traversing and then pointing the last node to the new</li>
 </ul>
-<h4 id="pros-and-cons-1">Pros And Cons</h4>
+<h3 id="pros-and-cons-1">Pros And Cons</h3>
 <p><strong>Pros</strong>: Dynamic size, no waste of memory, more efficient writing operations.
 <strong>Cons</strong>: Access always requires traversing, node requires extra memory for pointers, traversing have a higher constant factor compared to arrays.</p>
-<h2 id="stack">Stack</h2>
+<h1 id="stack">Stack</h1>
 <p>It&rsquo;s a LIFO-behaved data structure with a pointer to the last element for fast access. The stack itself is a pre-allocated region of memory with a fixed size, and the memory for individual function calls on the stack is dynamically managed. So the nature of the allocation depends on the type of stack and the context in which it&rsquo;s used.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">stack</span> <span class="o">=</span> <span class="p">[]</span>
 </span></span><span class="line"><span class="cl"><span class="n">stack</span><span class="o">.</span><span class="n">push</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
@@ -263,12 +195,12 @@ stroke-linejoin="round" class="feather feather-home">
 </span></span><span class="line"><span class="cl"><span class="n">stack</span><span class="o">.</span><span class="n">push</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">stack</span><span class="o">.</span><span class="n">pop</span><span class="p">())</span> <span class="c1"># 2</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">stack</span><span class="o">.</span><span class="n">pop</span><span class="p">())</span> <span class="c1"># 1</span>
-</span></span></code></pre></div><h4 id="operations-2">Operations</h4>
+</span></span></code></pre></div><h3 id="operations-2">Operations</h3>
 <ul>
 <li><strong>Access in the end</strong>: <code>O(1)</code> by stack pointer</li>
 <li><strong>Write in the end</strong>: <code>O(1)</code> by accessing via stack pointer and updating it</li>
 </ul>
-<h2 id="queue">Queue</h2>
+<h1 id="queue">Queue</h1>
 <p>It&rsquo;s a FIFO-behaved data structure that also can be pre-allocated or dynamically allocated depending on the type and context.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">deque</span>
 </span></span><span class="line"><span class="cl">
@@ -279,19 +211,19 @@ stroke-linejoin="round" class="feather feather-home">
 </span></span><span class="line"><span class="cl"><span class="n">deque</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">queue</span><span class="o">.</span><span class="n">popleft</span><span class="p">())</span> <span class="c1"># 3</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">queue</span><span class="o">.</span><span class="n">popleft</span><span class="p">())</span> <span class="c1"># 2</span>
-</span></span></code></pre></div><h4 id="operations-3">Operations</h4>
+</span></span></code></pre></div><h3 id="operations-3">Operations</h3>
 <ul>
 <li><strong>Access in the beginning/end</strong>: <code>O(1)</code> by pointers</li>
 <li><strong>Enqueue (insertion)</strong>: <code>O(1)</code> by accessing via pointer and updating it</li>
 <li><strong>Dequeue (deletion)</strong>: <code>O(1)</code> by accessing via pointer and updating it</li>
 </ul>
-<h2 id="hash-map">Hash Map</h2>
+<h1 id="hash-map">Hash Map</h1>
 <p>It&rsquo;s a key-value pair collection, where each key is unique. It provides operation efficiency (<strong>all operations are</strong> <code>O(1)</code>) through memory overhead. Uses hashing function to convert a key into an index and maintains an array where each index corresponds to a bucket that can hold multiple pairs.</p>
-<h2 id="set">Set</h2>
+<h1 id="set">Set</h1>
 <p>It&rsquo;s a unordered collection of distinct elements. Internally uses hash maps and <strong>all operations are</strong> <code>O(1)</code>.</p>
-<h2 id="binary-tree">Binary Tree</h2>
+<h1 id="binary-tree">Binary Tree</h1>
 <p>It&rsquo;s a hierarchical data structure in which each node has at most two children and the topmost node is called root.</p>
-<h4 id="traversal">Traversal</h4>
+<h3 id="traversal">Traversal</h3>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">preorder_print</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">traversal</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;Root-&gt;Left-&gt;Right&#34;&#34;&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">start</span><span class="p">:</span>
@@ -313,7 +245,7 @@ stroke-linejoin="round" class="feather feather-home">
 </span></span><span class="line"><span class="cl">        <span class="n">traversal</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">postorder_print</span><span class="p">(</span><span class="n">start</span><span class="o">.</span><span class="n">right</span><span class="p">,</span> <span class="n">traversal</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">        <span class="n">traversal</span> <span class="o">+=</span> <span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">start</span><span class="o">.</span><span class="n">value</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&#34;-&#34;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">traversal</span>
-</span></span></code></pre></div><h2 id="heap">Heap</h2>
+</span></span></code></pre></div><h1 id="heap">Heap</h1>
 <p>Is a specialized tree-based data structure that satisfies the heap property (for max and min heaps) and <strong>all operations are</strong> <code>O(log n)</code>. It&rsquo;s used to implement priority queues, for heap sort and graph algorithms like Dijkstra&rsquo;s.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">heapq</span>
 </span></span><span class="line"><span class="cl">
@@ -330,8 +262,7 @@ stroke-linejoin="round" class="feather feather-home">
 </span></span><span class="line"><span class="cl"><span class="n">heapq</span><span class="o">.</span><span class="n">heappush</span><span class="p">(</span><span class="n">max_heap</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">max_element</span> <span class="o">=</span> <span class="o">-</span><span class="n">heapq</span><span class="o">.</span><span class="n">heappop</span><span class="p">(</span><span class="n">max_heap</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">max_element</span><span class="p">)</span> <span class="c1"># 4</span>
-</span></span></code></pre></div>
-            </div>
+</span></span></code></pre></div></div>
         </article></main>
 </div>
 <footer class="footer">

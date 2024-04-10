@@ -134,43 +134,21 @@ stroke-linejoin="round" class="feather feather-home">
         <article>
             <header class="header">
                 <h1 class="header-title">Sorting Algoithms</h1>
-                
-                
+                 
                 <div class="post-meta">
-                    <time datetime="2024-03-10T15:24:15&#43;00:00" itemprop="datePublished"> Mar 10, 2024 </time>
+                    <time datetime="2024-03-10T15:24:15&#43;00:00" itemprop="datePublished">
+                        Mar 10, 2024
+                    </time>
                 </div>
                 
             </header>
             
-    
-    <details class="toc" ZgotmplZ>
-        <summary><b></b></summary>
-        <nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li>
-          <ul>
-            <li><a href="#selection-sort">Selection Sort</a></li>
-            <li><a href="#insertion-sort">Insertion Sort</a></li>
-            <li><a href="#bubble-sort">Bubble Sort</a></li>
-            <li><a href="#merge-sort">Merge Sort</a></li>
-            <li><a href="#quick-sort">Quick Sort</a></li>
-            <li><a href="#heap-sort">Heap Sort</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-    </details>
-            <div class="page-content">
-                <p>First we have to keep some concepts in mind.</p>
+            <div class="page-content"><p>First we have to keep some concepts in mind.</p>
 <ul>
 <li><strong>Inplace/Outplace</strong>: use/don&rsquo;t use extra memory</li>
 <li><strong>Unstable/Stable</strong>: position order change/don&rsquo;t change for repeated values</li>
 </ul>
-<h4 id="selection-sort">Selection Sort</h4>
+<h3 id="selection-sort">Selection Sort</h3>
 <p>Divides the input list into a sorted and an unsorted region. Repeatedly selects the smallest element from the unsorted region and swaps it with the first element in the unsorted region.</p>
 <ul>
 <li>Inplace and unstable</li>
@@ -183,7 +161,7 @@ stroke-linejoin="round" class="feather feather-home">
 </span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">arr</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">arr</span><span class="p">[</span><span class="n">min_idx</span><span class="p">]:</span>
 </span></span><span class="line"><span class="cl">                <span class="n">min_idx</span> <span class="o">=</span> <span class="n">j</span>
 </span></span><span class="line"><span class="cl">        <span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">arr</span><span class="p">[</span><span class="n">min_idx</span><span class="p">]</span> <span class="o">=</span> <span class="n">arr</span><span class="p">[</span><span class="n">min_idx</span><span class="p">],</span> <span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-</span></span></code></pre></div><h4 id="insertion-sort">Insertion Sort</h4>
+</span></span></code></pre></div><h3 id="insertion-sort">Insertion Sort</h3>
 <p>Builds a sorted portion of the list one element at a time. Iterates through the unsorted portion, selects an element, and inserts it into its correct position in the sorted portion.</p>
 <ul>
 <li>Inplace and stable</li>
@@ -197,7 +175,7 @@ stroke-linejoin="round" class="feather feather-home">
 </span></span><span class="line"><span class="cl">            <span class="n">arr</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">arr</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">            <span class="n">j</span> <span class="o">-=</span> <span class="mi">1</span>
 </span></span><span class="line"><span class="cl">        <span class="n">arr</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">key</span>
-</span></span></code></pre></div><h4 id="bubble-sort">Bubble Sort</h4>
+</span></span></code></pre></div><h3 id="bubble-sort">Bubble Sort</h3>
 <p>Repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. Pass through the list is repeated until no swaps are needed, indicating the list is sorted.</p>
 <ul>
 <li>Inplace and stable</li>
@@ -208,7 +186,7 @@ stroke-linejoin="round" class="feather feather-home">
 </span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span><span class="o">-</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">arr</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">arr</span><span class="p">[</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">]:</span>
 </span></span><span class="line"><span class="cl">                <span class="n">arr</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">arr</span><span class="p">[</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">arr</span><span class="p">[</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">],</span> <span class="n">arr</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
-</span></span></code></pre></div><h4 id="merge-sort">Merge Sort</h4>
+</span></span></code></pre></div><h3 id="merge-sort">Merge Sort</h3>
 <p>Divides the list into two halves recursively until each sublist contains a single element. Merges the sorted sublists back together, comparing elements to arrange them in the correct order.</p>
 <ul>
 <li>Outplace and stable</li>
@@ -241,7 +219,7 @@ stroke-linejoin="round" class="feather feather-home">
 </span></span><span class="line"><span class="cl">    <span class="n">result</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">left</span><span class="p">[</span><span class="n">i</span><span class="p">:])</span>
 </span></span><span class="line"><span class="cl">    <span class="n">result</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">right</span><span class="p">[</span><span class="n">j</span><span class="p">:])</span>
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">result</span>
-</span></span></code></pre></div><h4 id="quick-sort">Quick Sort</h4>
+</span></span></code></pre></div><h3 id="quick-sort">Quick Sort</h3>
 <p>Chooses a pivot element from the array and partitions the other elements into two subarrays according to whether they are less than or greater than the pivot. Recursively sorts the subarrays and concatenates them.</p>
 <ul>
 <li>Inplace and unstable</li>
@@ -259,7 +237,7 @@ stroke-linejoin="round" class="feather feather-home">
 </span></span><span class="line"><span class="cl">    <span class="n">right</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">arr</span> <span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="n">pivot</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">quick_sort</span><span class="p">(</span><span class="n">left</span><span class="p">)</span> <span class="o">+</span> <span class="n">middle</span> <span class="o">+</span> <span class="n">quick_sort</span><span class="p">(</span><span class="n">right</span><span class="p">)</span>
-</span></span></code></pre></div><h4 id="heap-sort">Heap Sort</h4>
+</span></span></code></pre></div><h3 id="heap-sort">Heap Sort</h3>
 <p>Builds a binary heap (max heap) from the input array. Repeatedly extracts the maximum element (root of the heap) and rebuilds the heap until the array is sorted. Not used as the main sorting algorithms of programming languages because it is unstable.</p>
 <ul>
 <li>Inplace and unstable</li>
@@ -270,8 +248,7 @@ stroke-linejoin="round" class="feather feather-home">
 </span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">heap_sort</span><span class="p">(</span><span class="n">arr</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">    <span class="n">heapq</span><span class="o">.</span><span class="n">heapify</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="p">[</span><span class="n">heapq</span><span class="o">.</span><span class="n">heappop</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">))]</span>
-</span></span></code></pre></div>
-            </div>
+</span></span></code></pre></div></div>
         </article></main>
 </div>
 <footer class="footer">

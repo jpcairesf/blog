@@ -8,6 +8,19 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 31 Mar 2024 09:29:19 -2353</lastBuildDate><atom:link href="http://localhost:1313/blog/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>CLI: Bootable USB From ISO</title>
+      <link>http://localhost:1313/blog/notes/cli-bootable-usb-from-iso/</link>
+      <pubDate>Sun, 31 Mar 2024 09:29:19 -2353</pubDate>
+      
+      <guid>http://localhost:1313/blog/notes/cli-bootable-usb-from-iso/</guid>
+      
+      <description>Check if flash drive is properly plugged and identify its label (something like /dev/sda):
+sudo fdisk -l Run dd command to make a bootable USB from the ISO file:
+sudo dd bs=4M if=/path/to/file.iso of=/dev/sdX status=progress oflag=sync Replace /path/to/file.iso with the path to your ISO file and replace /dev/sdX with the name of your device.</description>
+      
+    </item>
+    
+    <item>
       <title>Interview Storytelling</title>
       <link>http://localhost:1313/blog/notes/interview-storytelling/</link>
       <pubDate>Sun, 10 Mar 2024 12:58:19 -2353</pubDate>
@@ -50,9 +63,8 @@ Inplace and unstable O(n2) time and O(1) space def selection_sort(arr): for i in
       
       <guid>http://localhost:1313/blog/notes/data-structures/</guid>
       
-      <description>Data Structures A very simplified note to cover the most important data structures with examples in python, operations time complexity and trade offs.
-Arrays A contiguous memory block that stores elements of the same data type. The memory address of the first element in the array is the base address and any other element&amp;rsquo;s address can be calculated using the base address and the size of each element.
-array = [] array.</description>
+      <description>Arrays A contiguous memory block that stores elements of the same data type. The memory address of the first element in the array is the base address and any other element&amp;rsquo;s address can be calculated using the base address and the size of each element.
+array = [] array.append(1) array.append(3) print(array[1]) # 3 array.append(2) print(array.remove(3)) # 3 print(array.index(2)) # 1 Operations Access by index: O(1) by calculating the position Access by value: O(n) by traversal Write in the beginning: O(n), requires shifting elements Write in the end: O(1), no shifting required Pros And Cons Pros: Direct access using indexes, contiguous storage minimizes memory overhead, easy to sort.</description>
       
     </item>
     

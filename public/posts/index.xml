@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on jpcairesf/Blog</title>
-    <link>http://localhost:1313/blog/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on jpcairesf/Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Apr 2024 19:35:51 -0300</lastBuildDate><atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Apr 2024 19:35:51 -0300</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Career Tips For Remote Junior Devs</title>
-      <link>http://localhost:1313/blog/posts/career-tips-for-remote-junior-devs/</link>
+      <link>http://localhost:1313/posts/career-tips-for-remote-junior-devs/</link>
       <pubDate>Tue, 09 Apr 2024 19:35:51 -0300</pubDate>
       
-      <guid>http://localhost:1313/blog/posts/career-tips-for-remote-junior-devs/</guid>
+      <guid>http://localhost:1313/posts/career-tips-for-remote-junior-devs/</guid>
       
       <description>I started my tech career working from home and yes, there are many barriers to your learning in the beginning if you are not prepared. I already worked from home before this and I applied my &amp;ldquo;best practices&amp;rdquo; to make my growth faster.
 TL;DR: Speak, ask for help and guidance, watch other devs coding and never miss technical discussions.
@@ -22,10 +22,10 @@ Ask For Help, Seriously Don&amp;rsquo;t wait an entire day to ask for help when 
     
     <item>
       <title>How Blogging Can Leverage Your Tech Career</title>
-      <link>http://localhost:1313/blog/posts/how-blogging-can-leverage-your-tech-career/</link>
+      <link>http://localhost:1313/posts/how-blogging-can-leverage-your-tech-career/</link>
       <pubDate>Tue, 05 Mar 2024 20:35:51 -0300</pubDate>
       
-      <guid>http://localhost:1313/blog/posts/how-blogging-can-leverage-your-tech-career/</guid>
+      <guid>http://localhost:1313/posts/how-blogging-can-leverage-your-tech-career/</guid>
       
       <description>You Better Read Reading is important in technology. Documentation, blog posts and articles are the gold mine for learning advanced content, and blogging is a chill way for tech wizards who&amp;rsquo;d rather type than talk on camera to share their wisdom. Tech has this cool vibe where people love creating content, especially on their own blog or platforms like Dev.to.
 This cycle represents how it works and I&amp;rsquo;m a big believer in the whole tech blogging community as a mutual collaboration environment.</description>

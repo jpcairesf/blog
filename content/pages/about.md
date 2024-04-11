@@ -1,6 +1,6 @@
 ---
 title: About
-description: "My background, habits and decisions"
+description: "My background, habits and what I am doing"
 author: jpcairesf
 ---
 
@@ -12,8 +12,8 @@ I'm a Software Engineer. I'm also an Electrical Engineer who tried different car
 
 ### My Habits
 
-I'm a routine addicted. Waking up early, eating healthy, coding, going to the gym, sleeping early and well, that's my definition of a perfect day. Doing these simple things almost everyday makes me extremally happy. My lifestyle also meets technology to achieve high productivity. My Linux setup and CLI tools make my workspace fully configurable and ergonomic to reach the maximum effectiveness.
+I'm a routine addicted. Waking up early, eating healthy, coding, going to the gym, sleeping early and well, that's my definition of a perfect day. Doing these simple things almost everyday makes me extremally happy. My lifestyle also meets technology to achieve high productivity, you can take a look in my workspace configs in my [dotfiles](https://github.com/jpcairesf/dotfiles).
 
-### My Decisions
+### What I Am Doing
 
-Dopamine and substances don't control my actions. This is why I avoid many social medias, drinking, powergaming, tasty food rewarding and laziness. My free time is currently based around coding and studying technology, and I've never have been happier, more productive and healthier both pyshically and mentally.
+Studying, coding. I charged my motivation to study something that I really love from 2016 to 2022. Now I'm using almost all my free time to learn about computer science fundamentals and technologies. I also love talking about these topics and career, feel free to reach me out in some social media :).

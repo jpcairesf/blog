@@ -1,8 +1,8 @@
-+++
+---
 title = 'Data Structures'
 date = 2024-03-09T07:50:00-00:00
 draft = false
-+++
+---
 
 # Arrays
 
@@ -67,10 +67,10 @@ It's a LIFO-behaved data structure with a pointer to the last element for fast a
 
 ```python
 stack = []
-stack.push(1)
-stack.push(3)
+stack.append(1)
+stack.append(3)
 print(stack.pop()) # 3
-stack.push(2)
+stack.append(2)
 print(stack.pop()) # 2
 print(stack.pop()) # 1
 ```

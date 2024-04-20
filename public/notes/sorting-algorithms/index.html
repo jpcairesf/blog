@@ -152,7 +152,7 @@ stroke-linejoin="round" class="feather feather-home">
 <p>Divides the input list into a sorted and an unsorted region. Repeatedly selects the smallest element from the unsorted region and swaps it with the first element in the unsorted region.</p>
 <ul>
 <li>Inplace and unstable</li>
-<li>O(n<sup>2</sup>) time and O(1) space</li>
+<li><strong>O(n<sup>2</sup>)</strong> time and <strong>O(1)</strong> space</li>
 </ul>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">selection_sort</span><span class="p">(</span><span class="n">arr</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">)):</span>
@@ -165,7 +165,7 @@ stroke-linejoin="round" class="feather feather-home">
 <p>Builds a sorted portion of the list one element at a time. Iterates through the unsorted portion, selects an element, and inserts it into its correct position in the sorted portion.</p>
 <ul>
 <li>Inplace and stable</li>
-<li>O(n<sup>2</sup>) time and O(1) space</li>
+<li><strong>O(n<sup>2</sup>)</strong> time and <strong>O(1)</strong> space</li>
 </ul>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">insertion_sort</span><span class="p">(</span><span class="n">arr</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">)):</span>
@@ -179,7 +179,7 @@ stroke-linejoin="round" class="feather feather-home">
 <p>Repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. Pass through the list is repeated until no swaps are needed, indicating the list is sorted.</p>
 <ul>
 <li>Inplace and stable</li>
-<li>O(n<sup>2</sup>) timg and O(1) space</li>
+<li><strong>O(n<sup>2</sup>)</strong> time and <strong>O(1)</strong> space</li>
 </ul>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">bubble_sort</span><span class="p">(</span><span class="n">arr</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">)):</span>
@@ -190,7 +190,7 @@ stroke-linejoin="round" class="feather feather-home">
 <p>Divides the list into two halves recursively until each sublist contains a single element. Merges the sorted sublists back together, comparing elements to arrange them in the correct order.</p>
 <ul>
 <li>Outplace and stable</li>
-<li>O(n log n) time and O(n) space</li>
+<li><strong>O(n log n)</strong> time and <strong>O(n)</strong> space</li>
 </ul>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">merge_sort</span><span class="p">(</span><span class="n">arr</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">:</span>
@@ -223,8 +223,8 @@ stroke-linejoin="round" class="feather feather-home">
 <p>Chooses a pivot element from the array and partitions the other elements into two subarrays according to whether they are less than or greater than the pivot. Recursively sorts the subarrays and concatenates them.</p>
 <ul>
 <li>Inplace and unstable</li>
-<li>Average: O(n log n) time and O(log n)* space</li>
-<li>Worst case: O(n<sup>2</sup>) time and O(n)* space
+<li>Average: <strong>O(n log n)</strong> time and <strong>O(log n)*</strong> space</li>
+<li>Worst case: <strong>O(n<sup>2</sup>)</strong> time and <strong>O(n)*</strong> space
 *because of recursion stack</li>
 </ul>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">quick_sort</span><span class="p">(</span><span class="n">arr</span><span class="p">):</span>
@@ -241,7 +241,7 @@ stroke-linejoin="round" class="feather feather-home">
 <p>Builds a binary heap (max heap) from the input array. Repeatedly extracts the maximum element (root of the heap) and rebuilds the heap until the array is sorted. Not used as the main sorting algorithms of programming languages because it is unstable.</p>
 <ul>
 <li>Inplace and unstable</li>
-<li>O(n log n) time and O(1) space</li>
+<li><strong>O(n log n)</strong> time and <strong>O(1)</strong> space</li>
 </ul>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">heapq</span>
 </span></span><span class="line"><span class="cl">

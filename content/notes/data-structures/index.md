@@ -1,8 +1,8 @@
----
++++
 title = 'Data Structures'
 date = 2024-03-09T07:50:00-00:00
 draft = false
----
++++
 
 # Arrays
 

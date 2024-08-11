@@ -1,7 +1,7 @@
 +++
 title = 'Improving Your Dev Work Environment and Productivity'
 date = 2024-07-20T20:35:51-03:00
-draft = true
+draft = false
 +++
 
 NeoVim, tmux, Obsidian—you’ve probably seen these tools mentioned often. As you explore more, you’ll see a lot of content about improving your productivity with different setups. I’ve tried many of them, and here’s my feedback.

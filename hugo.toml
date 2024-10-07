@@ -78,7 +78,7 @@ disqusShortname = ''
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "João Pedro"
   name = "jpcairesf"
-  description = "I enjoy coding as much as playing Ragnarok in 2010. WFH dev in a countryside city talking about productivity, career, backend and devops."
+  description = "WFH dev in a countryside city talking about career and backend engineering."
 
 # Allow to override webmanifest options
 [params.webmanifest]
@@ -105,10 +105,6 @@ url = "https://hackerrank.com/jpcairesf"
 [[params.socialIcons]]
 name = "leetcode"
 url = "https://leetcode.com/jpcairesf"
-
-[[params.socialIcons]]
-name = "dev"
-url = "https://dev.to/jpcairesf"
 
 [[params.socialIcons]]
 name = "Rss"

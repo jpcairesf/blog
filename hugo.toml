@@ -74,7 +74,7 @@ disqusShortname = ''
   # By default (or if nothing is specified), summary is used.
 
 [params.author]
-  avatar = "2a73b932b5eae0f56297115c5be260c5.svg" # put the file in assets folder; also ensure that image has same height and width
+  avatar = "basecamera.gif" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "João Pedro"
   name = "jpcairesf"
